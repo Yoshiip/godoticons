@@ -17,16 +17,16 @@
 >
 	{#if type === ToastType.SUCCESS}
 		<img
-			src="/src/assets/icons/StatusSuccess.svg"
+			src="/src/lib/icons/StatusSuccess.svg"
 			aria-hidden="true"
 			class="w-6 h-6"
 			alt="Sucess"
 		/>
 	{:else if type === ToastType.ERROR}
-		<img src="/src/assets/icons/StatusError.svg" aria-hidden="true" class="w-6 h-6" alt="Error" />
+		<img src="/src/lib/icons/StatusError.svg" aria-hidden="true" class="w-6 h-6" alt="Error" />
 	{:else if type === ToastType.DANGER}
 		<img
-			src="/src/assets/icons/StatusWarning.svg"
+			src="/src/lib/icons/StatusWarning.svg"
 			aria-hidden="true"
 			class="w-6 h-6"
 			alt="Danger"
@@ -42,7 +42,7 @@
 			aria-label="Close"
 		>
 			<span class="sr-only">Close</span>
-			<img src="/src/assets/icons/Close.svg" aria-hidden="true" class="w-6 h-6" alt="Close" />
+			<img src="/src/lib/icons/Close.svg" aria-hidden="true" class="w-6 h-6" alt="Close" />
 		</button>
 	{/if}
 </div>

@@ -1,5 +1,5 @@
 import type { PageLoad } from './$types';
-const imageModules = import.meta.glob('../assets/icons/*.svg');
+const imageModules = import.meta.glob('../lib/icons/*.svg');
 
 export const load = (async (parent) => {
 	const data = {
