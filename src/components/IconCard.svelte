@@ -12,7 +12,7 @@
 		}}
 		class="cursor-pointer"
 	>
-		<img src={'/src/lib/icons/' + name + '.svg'} alt={name} class="w-8 max-h-8" />
+		<img src={'/icons/' + name + '.svg'} alt={name} class="w-8 max-h-8" />
 	</button>
 	<p class="mt-4 text-xs font-semibold text-slate-200 max-w-full pl-1 pr-1 truncate">
 		{name}

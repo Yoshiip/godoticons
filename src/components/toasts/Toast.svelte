@@ -16,21 +16,11 @@
 	transition:fade
 >
 	{#if type === ToastType.SUCCESS}
-		<img
-			src="/src/lib/icons/StatusSuccess.svg"
-			aria-hidden="true"
-			class="w-6 h-6"
-			alt="Sucess"
-		/>
+		<img src="/icons/StatusSuccess.svg" aria-hidden="true" class="w-6 h-6" alt="Sucess" />
 	{:else if type === ToastType.ERROR}
-		<img src="/src/lib/icons/StatusError.svg" aria-hidden="true" class="w-6 h-6" alt="Error" />
+		<img src="/icons/StatusError.svg" aria-hidden="true" class="w-6 h-6" alt="Error" />
 	{:else if type === ToastType.DANGER}
-		<img
-			src="/src/lib/icons/StatusWarning.svg"
-			aria-hidden="true"
-			class="w-6 h-6"
-			alt="Danger"
-		/>
+		<img src="/icons/StatusWarning.svg" aria-hidden="true" class="w-6 h-6" alt="Danger" />
 	{/if}
 
 	<div class="ms-3 text-sm font-normal"><slot></slot></div>
@@ -42,7 +32,7 @@
 			aria-label="Close"
 		>
 			<span class="sr-only">Close</span>
-			<img src="/src/lib/icons/Close.svg" aria-hidden="true" class="w-6 h-6" alt="Close" />
+			<img src="/icons/Close.svg" aria-hidden="true" class="w-6 h-6" alt="Close" />
 		</button>
 	{/if}
 </div>
