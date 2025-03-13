@@ -6,6 +6,6 @@ This is a simple tool to browse the icons available in the Godot Engine. It is u
 
 You can search for icons by name, and get the SVG, or the GDScript code to use the icon in your project.
 
-All icons are from Godot 4.2.
+All icons are from Godot 4.4.
 
 - Made with TypeScript, SvelteKit and TailwindCSS
